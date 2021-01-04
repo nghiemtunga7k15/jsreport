@@ -1,14 +1,16 @@
 {
-  "name": "jsreport-server",
-  "main": "server.js",
+  "name": "jsreport-index",
+  "main": "index.js",
   "scripts": {
     "start": "node index",
     "jsreport": "jsreport"
   },
   "jsreport": {
-    "entryPoint": "server.js"
+    "entryPoint": "index.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
     "jsreport": "^2.11.0"
   }
 }
