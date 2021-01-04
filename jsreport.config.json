@@ -1,5 +1,5 @@
 {
-  "httpPort": 9999,
+  "httpPort": 3000,
   "store": {
     "provider": "fs"
   },

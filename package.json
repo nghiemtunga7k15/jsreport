@@ -2,7 +2,7 @@
   "name": "jsreport-server",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node index",
     "jsreport": "jsreport"
   },
   "jsreport": {
